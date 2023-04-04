@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@src/*": ["./src/*"],
+        "@constants/*": ["./src/constants/*"],
+        "@components/*": ["./src/components/*"],
+        "@screens/*": ["./src/screens/*"],
+        "@utils/*": ["./src/utils/*"],
+        "@navigator/*": ["./src/navigator/*"]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js"
+    ]
+}  
